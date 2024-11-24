@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#388e3c" />
+  <meta name="google" content="notranslate" />
+  <meta name="robots" content="index, follow">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta http-equiv="Cache-control" content="no-transform">
+  <meta name="twitter:title" content="Create wish card with your name on all festivals.">
+    <link rel="apple-touch-icon" href="https://sugaroy.com/apple.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://sugaroy.com/apple.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
+    <meta name="apple-mobile-web-app-title" content="Sugaroy Wishes">
+  <meta property="og:type" content="sugaroy" />
+  <meta property="og:title" content="Create wish card with your name on all festivals." />
+  <meta property="og:url" content="https://sugaroy.com/" />
+  <meta property="og:description" content="I am send you a surprise message. Open this Now" />
+  <meta property="og:site_name" content="Create wish card with your name" />
+  <meta property="og:image" content="https://cdn.jsdelivr.net/gh/2O24/img2024/ogmsg.jpg" />
+  <meta name="keywords" content="Happy New Year 2024, New Year 2024, Merry Christmas, New Year, New Year Wish, Merry Christmas Wish, Happy New Year">
+  <meta name="description" content="I am send you a surprise message. Open this Now">
+  <meta name="twitter:description" content="I am send you a surprise message. Open this">
+  <meta property="og:description" content="I am send you a surprise message. Open this">
+  <meta itemprop="description" content="I am send you a surprise message. Open this">
+  <meta property="article:tag" content="All festivals wish card">
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/2O24/all/favicon.ico" type="image/x-icon" />
+  <title>Create wish card with your name</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/2O24/card/css/style-starter.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/2O24/card/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/2O24/card/css/all.min.css">
+  <style>
+        .list{
+            list-style: none;
+        }
+        .list a, .list a:hover, .list a:active, .list a:visited{
+            color: #2d2d43;
+        }
+        a, a:hover, a:active, a:focus, a:visited{
+            color: #2d2d43;
+            
+        }
+        .desk-nav{
+            display: none;
+        }
+        .desk-nav.opened{
+            display: block;
+        }
+        .n-bg{
+            background: #70e1f5;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        .n-field{
+            border: 0px;
+            border-bottom: 1px solid #02a8ea;
+            border-radius: 0px;
+        }
+        .n-field:focus{
+            border-color: #ffd194;
+        }
+        
+        button.n-btn {
+          font-weight: 600;
+          color: #382b22;
+          text-transform: uppercase;
+          padding: 1.25em 2em;
+          background: #fff0f0;
+          border: 2px solid #b18597;
+          border-radius: 0.75em;
+          -webkit-transform-style: preserve-3d;
+                  transform-style: preserve-3d;
+          -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+          transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+          transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+          transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+        }
+        button.n-btn::before {
+          position: absolute;
+          content: "";
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: #f9c4d2;
+          border-radius: inherit;
+          box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+          -webkit-transform: translate3d(0, 0.75em, -1em);
+                  transform: translate3d(0, 0.75em, -1em);
+          -webkit-transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+          transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+          transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+          transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+        }
+        button.n-btn:hover {
+          background: #ffe9e9;
+          -webkit-transform: translate(0, 0.25em);
+                  transform: translate(0, 0.25em);
+        }
+        button.n-btn:hover::before {
+          box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+          -webkit-transform: translate3d(0, 0.5em, -1em);
+                  transform: translate3d(0, 0.5em, -1em);
+        }
+        button.n-btn:active {
+          background: #ffe9e9;
+          -webkit-transform: translate(0em, 0.75em);
+                  transform: translate(0em, 0.75em);
+        }
+        button.n-btn:active::before {
+          box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+          -webkit-transform: translate3d(0, 0, -1em);
+                  transform: translate3d(0, 0, -1em);
+        }
+
+        .n-tmb{
+            width: 50px;
+            height: 50px;
+        }
+        .n-tmb-txt{
+            width: calc(100% - 50px);
+        }        
+        @media (min-width: 768px){
+            .desk-nav{
+                display: block;
+            }
+            .menu-btn{
+                display: none;
+            }
+
+        }
+
+
+    .n-ani{
+      padding: 0!important;
+      width: 100%!important;
+      text-align: center;
+    } 
+    
+    .n-ani .name{
+      margin: auto!important;
+      padding: 0!important;
+      text-align: center;
+      font-size: 13px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    
+    .n-ani .name span{ 
+      min-width: 10px;
+      display:inline-block;
+      font-size: 2em;
+      user-select:none; 
+    }
+    </style>
+  </head>
+  <body class="n-bg">
+<section class="w3l-header fixed-top bg-white n-bg">
+  <nav class="navbar navbar-expand-lg navbar-light py-3">
+    <div class="container">
+        <a class="p-0" href="/">
+            <img src="https://cdn.jsdelivr.net/gh/2O24/card/img/gift.svg" alt="sugaroy" title="sugaroy" style="height:35px;" />
+        </a>
+      <div class="header-right d-flex align-items-center">
+        <section class="w3l-menu">
+          <div class="menu-btn">
+            <span class="top"></span>
+            <span class="mid"></span>
+            <span class="bot"></span>
+          </div>
+        </section>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<div class="row mx-0" style="margin-top: 67px;">
+    <div id="n-nav" class="col-md-3 desk-nav">
+        <ul class="list p-3"><li><a href="/">HOME</a></li><li><a href="https://sugaroy.com/about-us.html">About Us</a></li><li><ul class='list'><li><a href="https://sugaroy.com/privacy-policy.html">Privacy Policy</a></li><li><a href="https://sugaroy.com/contact-us.html">Contact Us</a></li></ul></li></ul>    </div>
+    <div class="col-md-9 p-0">
+        <div class="w3l-index6" id="news">
+          <section id="" class="">
+            <div class="container">
+              <div class="row">
+<div class="col-lg-4 col-md-4 col-6 p-1">
+                              <div class="grids5-info p-0">
+                                <div class="blog-info px-2 py-1">
+                                  <p style="word-break: break-all;height: 27px;" class="mt-0 overflow-hidden">Advertisement</p>
+
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-6 p-1">
+                              <div class="grids5-info p-0 overflow-hidden">
+                                <a href="https://sugaroy.com/card/ny1/"><img src="https://cdn.jsdelivr.net/gh/2O24/card/ny1/thumbnail11.png" alt="Happy New Year 2024 Wish Card Card" class="" />
+                                <div class="blog-info px-2 py-1">
+                                  <p style="word-break: break-all;height: 27px;" class="mt-0 overflow-hidden">Happy New Year 2024 Wish Card</p>
+                                </div>
+                                </a>
+                              </div>
+                            </div><div class="col-lg-4 col-md-4 col-6 p-1">
+                              <div class="grids5-info p-0 overflow-hidden">
+                                <a href="https://sugaroy.com/card/xmas1/"><img src="https://cdn.jsdelivr.net/gh/2O24/card/xmas1/thumbnail.png" alt="Merry Christmas Wish Card Card" class="" />
+                                <div class="blog-info px-2 py-1">
+                                  <p style="word-break: break-all;height: 27px;" class="mt-0 overflow-hidden">Merry Christmas Wish Card</p>
+                                </div>
+                                </a>
+                              </div>
+                            </div><div class="col-lg-4 col-md-4 col-6 p-1">
+                              <div class="grids5-info p-0 overflow-hidden">
+                                <a href="https://sugaroy.com/card/vt1/"><img src="https://cdn.jsdelivr.net/gh/2O24/card/vt1/thumbnail.png" alt="Happy Valentine Day Wish Card Card" class="" />
+                                <div class="blog-info px-2 py-1">
+                                  <p style="word-break: break-all;height: 27px;" class="mt-0 overflow-hidden">Happy Valentine Day Wish Card</p>
+                                </div>
+                                </a>
+                              </div>
+                            </div><div class="col-lg-4 col-md-4 col-6 p-1">
+                              <div class="grids5-info p-0 overflow-hidden">
+                                <a href="https://sugaroy.com/card/women1/"><img src="https://cdn.jsdelivr.net/gh/2O24/card/women1/thumbnail.png" alt="Happy Women Day Wish Card Card" class="" />
+                                <div class="blog-info px-2 py-1">
+                                  <p style="word-break: break-all;height: 27px;" class="mt-0 overflow-hidden">Happy Women Day Wish Card</p>
+                                </div>
+                                </a>
+                              </div>
+                            </div><div class="col-lg-4 col-md-4 col-6 p-1">
+                              <div class="grids5-info p-0 overflow-hidden">
+                                <a href="https://sugaroy.com/card/easter1/"><img src="https://cdn.jsdelivr.net/gh/2O24/card/easter1/thumbnail.png" alt="Happy Easter Wish Card Card" class="" />
+                                <div class="blog-info px-2 py-1">
+                                  <p style="word-break: break-all;height: 27px;" class="mt-0 overflow-hidden">Happy Easter Wish Card</p>
+                                </div>
+                                </a>
+                              </div>
+                            </div><div class="py-3"> 
+          </div>
+            </div>
+          </section>
+        </div>    
+<br><div class="page">Pages</div><a class="page active" number="1" >1</a><a href="https://sugaroy.com/page2.html" class="page" number="2" >2</a><br><br>    </div>
+</div>
+
+    <footer class="w3l-footer">
+      <div class="footer-29 py-5">
+        <div class="container ">
+          <div class="row">
+            <p class="copy-footer-29 col-lg-7 text-lg-left text-center">© 2023 sugaroy.com</p>
+          </div>
+        </div>
+      </div>
+      <!-- move top -->
+      <button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
+        <p class="fa fa-angle-up"></p>
+      </button>
+      <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction()
+        };
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("movetop").style.display = "block";
+          } else {
+            document.getElementById("movetop").style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+      <!-- /move top -->
+    </footer>
+    <!-- // footer -->
+
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/gh/2O24/card/js/jquery-3.4.1.slim.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/gh/2O24/card/js/bootstrap.min.js"></script>
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+      $(function () {
+        $('.navbar-toggler').click(function () {
+          $('body').toggleClass('noscroll');
+        })
+      });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+      $(document).ready(function () {
+
+        var $menuBtn = $('.menu-btn');
+
+        $menuBtn.on('click', function () {
+          $('#n-nav').toggleClass('opened');
+
+        });
+        var $menuBtn2 = $('#mob_menu');
+
+        $menuBtn2.on('click', function () {
+          topFunction();
+          $('#n-nav').toggleClass('opened');
+        });
+
+      });
+    </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HW7L0D4S14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HW7L0D4S14');
+</script>
+</body>
+</html>
