@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>deseándote feliz navidad.</title>
+
+<!-- meta tags start -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google" content="notranslate" />
+    <meta property="og:type" content="mensaje secreto" />
+    <meta property="og:title" content="Te envié un mensaje sorpresa. Abre esto" />
+    <meta property="og:url" content="https://sugaroy.com/es/" />
+    <meta property="og:description" content="😱😱😱😱" >
+    <meta property="og:site_name" content="Te envié un mensaje sorpresa. Abre esto" />
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/cdn25/pic25/ogmsg.jpg" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cdn25/sugaroy/gtag-adx.js" defer></script>
+    <script>
+        // Get the current URL
+        var currentURL = window.location.href;
+
+        // Remove 'https://', 'http://', or 'file://'
+        var baseURL = currentURL.replace(/^https?:\/\//, '').replace(/^http?:\/\//, '');
+
+        // Remove parameters (anything after '?')
+        baseURL = baseURL.split('?')[0];
+
+        // Remove the file name (everything after the last slash)
+        var lastSlashIndex = baseURL.lastIndexOf('/');
+        if (lastSlashIndex !== -1) {
+            baseURL = baseURL.substring(0, lastSlashIndex); // Keep everything before the last slash
+        }
+
+        // Ensure the base URL ends with a slash
+        if (!baseURL.endsWith('/')) {
+            baseURL += '/';
+        }
+    </script>
+<style>
+body {
+  background-color: white;
+}
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+  }
+  40% {
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+  }
+  60% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  80% {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+}
+.container {
+  max-width: 450px;
+  min-height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.GodMessage {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-shadow: 0px 0px 10px #afafaf;
+}
+.GodMessage p {
+  margin: 0.3em 0;
+}
+.line1 {
+  text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black,
+    -1px -1px 3px black;
+  color: #f7b30b;
+}
+.line2 {
+  text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black,
+    -1px -1px 3px black;
+  color: #b7f70b;
+}
+.line3 {
+  text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black,
+    -1px -1px 3px black;
+  color: #f1948a;
+}
+.line4 {
+  text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black,
+    -1px -1px 3px black;
+  color: #7fb3d5;
+}
+.line5 {
+  text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black,
+    -1px -1px 3px black;
+  color: #e59866;
+}
+.line6 {
+  text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black,
+    -1px -1px 3px black;
+  color: #b7f70b;
+}
+.footer input[type="text"] {
+  background-color: #1b488b;
+  color: #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  animation: nudge 2s linear infinite alternate;
+  border: 3px solid #f76d2d;
+  padding: 5px;
+  position: fixed;
+  left: 2px;
+  bottom: 5px;
+  height: 60px;
+  width: 69%;
+  text-align: center;
+  font-size: 22px;
+  display: inline-block;
+}
+.footer .submit {
+  border-radius: 10px;
+  font-size: 22px;
+  padding: 4px;
+  position: fixed;
+  right: 2px;
+  bottom: 5px;
+  height: 60px;
+  width: 30%;
+  display: inline-block;
+  color: #ffffff;
+  background-color: #d432e1;
+  animation: nudge 2s linear infinite alternate;
+  border: 2px solid #f76d2d;
+  letter-spacing: 0.5px;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  line-height: 36px;
+  outline: 0;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.footer input[type="text"]::-webkit-input-placeholder {
+  color: white;
+  font-size: 18px;
+}
+.footer input[type="text"]::-moz-placeholder {
+  color: white;
+  font-size: 18px;
+}
+.footer input[type="text"]:focus::-webkit-input-placeholder {
+  color: white;
+}
+.footer input[type="text"]:focus::-moz-placeholder {
+  color: white;
+  font-size: 18px;
+}
+@keyframes nudge {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}
+@-webkit-keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes tada {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+  }
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+  }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+.m1 {
+  position: fixed;
+  left: 1%;
+  width: auto;
+  height: 100%;
+  top: 1%;
+  color: #000;
+  white-space: pre;
+}
+.m2 {
+  position: fixed;
+  right: 1%;
+  width: auto;
+  height: 100%;
+  top: 1%;
+  color: #000;
+  white-space: pre;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.username {
+  color: black; /* Fallback: assume this color ON TOP of image */
+  background: url("https://cdn.jsdelivr.net/gh/cdn25/pic25/sname.gif");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: swing 4s infinite;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 40px;
+  overflow-wrap: break-word;
+}
+.username1 {
+  color: black; /* Fallback: assume this color ON TOP of image */
+  background: url("https://cdn.jsdelivr.net/gh/cdn25/pic25/sname.gif");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: swing 4s infinite;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  overflow-wrap: break-word;
+}
+
+.shareBtn {
+  position: fixed;
+  right: calc(50% - 145px);
+  bottom: 5px;
+  width: 300px;
+  height: 60px;
+  background-color: #007f00;
+  border-radius: 100px;
+  color: white;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  overflow: hidden;
+  animation: footer infinite linear 1s;
+  transition: all 0.3s cubic-bezier(0.67, 0.13, 0.1, 0.81),
+    transform 0.15s cubic-bezier(0.67, 0.13, 0.1, 0.81);
+}
+.shareShow {
+  position: fixed;
+  right: calc(50% - 45px);
+  bottom: 5px;
+  width: 100px;
+  height: 60px;
+  background-color: brown;
+  border-radius: 100px;
+  color: white;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.67, 0.13, 0.1, 0.81),
+    transform 0.15s cubic-bezier(0.67, 0.13, 0.1, 0.81);
+}
+.platforms {
+  position: fixed;
+  right: calc(50% - 145px);
+  height: 100px;
+  width: 300px;
+  bottom: 65px;
+  border-radius: 5px;
+  visibility: hidden;
+  transform: scale(0.9);
+  overflow: hidden;
+}
+.platforms:target {
+  visibility: visible;
+  transform: scale(1);
+  opacity: 1;
+}
+.platforms a {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+  color: #3f8efc;
+  text-transform: uppercase;
+}
+.platforms a:nth-child(1) {
+  background-color: #36454F;
+  left: 60px;
+}
+.platforms a:nth-child(2) {
+  background-color: #36454F;
+  left: 155px;
+}
+.platforms:target a {
+  top: 5px;
+}
+.platforms a:hover {
+  background: #000;
+  box-shadow: 0 0 0 1px #a5cfff;
+}
+.platforms a:before {
+  content: attr(data-os);
+  position: absolute;
+  color: white;
+  bottom: 5px;
+  left: 0px;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.leftcurtain {
+  width: 50%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  z-index: 2;
+}
+.rightcurtain {
+  width: 50%;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 3;
+}
+.rightcurtain img,
+.leftcurtain img {
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  margin: 0px auto;
+  margin-top: 150px;
+}
+.rope {
+  position: absolute;
+  top: 5px;
+  left: 35%;
+  z-index: 4;
+}
+.centered {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a.rope {
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  white-space: pre;
+}
+a div {
+  font-size: 25px;
+  text-shadow: 1px 1px 3px white, 1px 1px 3px white, -1px -1px 3px white,
+    -1px -1px 3px white;
+  color: red;
+  font-weight: bold;
+  line-height: normal;
+}
+.leftcurtain {
+  width: 50%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  z-index: 2;
+}
+.rightcurtain {
+  width: 50%;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 3;
+}
+.rightcurtain img,
+.leftcurtain img {
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  margin: 0px auto;
+  margin-top: 150px;
+}
+.rope {
+  position: absolute;
+  top: 5px;
+  left: 35%;
+  z-index: 4;
+}
+.centered {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a.rope {
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  white-space: pre;
+}
+a div {
+  font-size: 25px;
+  text-shadow: 1px 1px 3px white, 1px 1px 3px white, -1px -1px 3px white,
+    -1px -1px 3px white;
+  color: red;
+  font-weight: bold;
+  line-height: normal;
+}
+</style>
+</head>
+<!-- Body Script Start -->
+<body>
+
+<!-- Marquee Start -->
+<marquee class="m1" behavior="scroll" direction="up" scrolldelay="0">
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m1.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m2.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m3.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m4.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m5.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m6.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m7.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m8.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m1.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m2.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m3.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m4.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m5.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m6.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m7.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m8.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m1.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m2.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m3.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m4.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m5.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m6.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m7.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m8.png" height="25px" width="25px" alt="" />
+
+</marquee>
+<marquee class="m2" behavior="scroll" direction="down" scrolldelay="0">
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m1.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m2.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m3.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m4.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m5.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m6.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m7.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m8.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m1.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m2.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m3.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m4.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m5.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m6.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m7.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m8.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m1.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m2.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m3.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m4.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m5.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m6.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m7.png" height="25px" width="25px" alt="" />
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/m8.png" height="25px" width="25px" alt="" />
+
+</marquee>
+
+
+<div class="container">
+
+<!-- Adsense Code -->
+<center><div id="ad1"></div></center>
+
+<div class="username simpleName"></div>
+
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/es/wish2.png" width="50%" height="4%" style="animation: pulse 2.5s infinite" alt="" />
+<p id="demo"></p>
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/es/main2.png" width="80%" height="30%" style="animation: tada 4s infinite" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/under3.gif" width="45%" height="30%" alt="" />
+<img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/under4.gif" width="45%" height="30%" alt="" />
+
+<div class="GodMessage"> 
+<p class="line1">Te deseo paz, salud,</p>
+<p class="line2">e o amor, alegría y mucha</p>
+<p class="line3">felicidad. Que la estrella</p>
+<p class="line4">de Belén te ilumine con</p>
+<p class="line5">Te todos esos dones.</p>
+<p class="line6">Feliz Navidad!</p>
+</div>
+
+<!-- Adsense Code -->
+<center><div id="ad2"></div></center>
+
+<div class="username1 simpleName">Your Name</div>
+
+<a class="shareBtn" id="div1" href="#platforms">Compartir con amigas</a>
+<a class="shareShow" id="div2" href="#close" style="display: none;">Cerrar</a>
+<div class="platforms" id="platforms">
+    <div id="social-share-buttons">
+
+</div>
+<script>
+// Click to show and hide share buttons
+$(document).ready(function(){
+$(".shareBtn").click(function(){
+$(".shareBtn").hide();
+$(".shareShow").show();
+});
+$(".shareShow").click(function(){
+$(".shareShow").hide();
+$(".shareBtn").show();
+});
+});
+</script> 
+<audio controls autoplay loop style="display:none!important">
+<source src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/es/spain2.mp3" type="audio/ogg">
+<source src="https://cdn.jsdelivr.net/gh/cdn25/pic25/all/xmas/es/spain2.mp3" type="audio/mpeg">
+</audio>
+<script> 
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 25, 2024 00:00:00").getTime();
+
+// Update the count down every 01 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+// Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = "<div style='font-size: 20px; font-weight: 800; color: black;margin-top:-5px;'>" + days + "<font color='#FA069A'> dias,</font> " + hours + "<font color='#11680B'> horas,</font> "
+  + minutes + "<font color='#9B274C'>  min,<br></font> " + seconds + "<font color='#F47810'> seg antes</font></div>";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "";
+  }
+}, 1000);
+</script>
+<script>
+  // Check if there is a value in sessionStorage
+  var recordName = sessionStorage.getItem('name');
+
+  // If no value is found, use a default value
+  if (!recordName) {
+      recordName = "Your Name";  // Default text when no record is found
+  }
+
+  // Decode the value (whether it's from sessionStorage or the default)
+  var decodedValue = decodeURIComponent(recordName);
+
+  // Replace certain characters (adjust if needed)
+  var name = decodedValue.replace(/[+\-#&@<]/g, ' ');  // Replace unwanted characters with space
+  var yname = name.replace(/ /g, '-');         // Replace unwanted characters with hyphen
+
+  // Get all elements with the class "simpleName" and update their content
+  const simpleNameElements = document.getElementsByClassName("simpleName");
+  for (let element of simpleNameElements) {
+      element.textContent = name;
+  }
+</script>
+<script>
+  // Function to detect if the user is on a mobile device
+  function isMobileDevice() {
+      return window.innerWidth <= 768;  // Typically 768px is the breakpoint for tablets/mobiles
+  }
+
+  // Create a container for the social share buttons
+  var container = document.getElementById("social-share-buttons");
+
+  if (isMobileDevice()) {
+      // Create the WhatsApp link for mobile users
+      var whatsappLink = 'whatsapp://send?text=🤗😇 Has visto esto???%0A *' + name + '* te envía un mensaje sorpresa %0A 💁 Abre esto%0A👇👇🏻👇👇%0A '+ baseURL +'?n=' + yname + ' %0A';
+      var whatsappImg = '<a href="' + whatsappLink + '" data-os="Whatsapp"><img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/wtsp.png" style="animation: tada 2s infinite; margin-top:5px;height: 50px;width:50px;" alt="WhatsApp"></a>';
+      container.innerHTML += whatsappImg;
+
+      // Create the Messenger link for mobile users
+      var messengerLink = 'fb-messenger://share/?link=https%3A%2F%2F'+ baseURL +'?n=' + yname + '%26t=fm';
+      var messengerImg = '<a href="' + messengerLink + '" data-os="Messenger"><img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/fb.png" style="animation: tada 2s infinite; margin-top:5px;height: 50px;width:50px;" alt="Messenger"></a>';
+      container.innerHTML += messengerImg;
+
+  } else {
+      // Create the WhatsApp link for desktop users
+      var whatsappLinkDesktop = 'https://api.whatsapp.com/send?text=🤗😇 Has visto esto???%0A *' + name + '* te envía un mensaje sorpresa %0A 💁 Abre esto%0A👇👇🏻👇👇%0A '+ baseURL +'?n=' + yname + ' %0A';
+      var whatsappImgDesktop = '<a href="' + whatsappLinkDesktop + '" target="_blank" data-os="Whatsapp"><img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/wtsp.png" style="animation: tada 2s infinite; margin-top:5px;height: 50px;width:50px;" alt="WhatsApp"></a>';
+      container.innerHTML += whatsappImgDesktop;
+
+      // Create the Facebook Messenger link for desktop users
+      var messengerLinkDesktop = 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F'+ baseURL +'?n=' + yname + '%26t=fa';
+      var messengerImgDesktop = '<a href="' + messengerLinkDesktop + '" target="_blank" data-os="Facebook"><img src="https://cdn.jsdelivr.net/gh/cdn25/pic25/fb.png" style="animation: tada 2s infinite; margin-top:5px;height: 50px;width:50px;" alt="Facebook Messenger"></a>';
+      container.innerHTML += messengerImgDesktop;
+  }
+</script>
+
+</body>
+</html>
