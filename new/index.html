@@ -378,7 +378,7 @@ var x = setInterval(function() {
         let name = decodeURIComponent(getname).replace(/\+|-|#|&|@|%20|</g, ' '); // Replace + or - with space
 
             // Split the input string by spaces and join them with a newline character
-        let space = name.split(' ').join('\n');
+        let space = name.replace(/\s+/g, ' ').split(' ').join('\n');
 
 
         // Regular expression for valid characters (A-Z, a-z, accented characters, common symbols, and spaces)
