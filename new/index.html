@@ -375,11 +375,7 @@ var x = setInterval(function() {
         let getname = urlParams.get('n') || 'Your Name'; // Default to 'Your Name' if not found
         
         // Decode the parameter and replace unwanted characters with space (optional cleaning)
-        let name = decodeURIComponent(getname).replace(/\+|-|#|&|@|%20|</g, ' '); // Replace + or - with space
-
-            // Split the input string by spaces and join them with a newline character
-        let space = name.replace(/\s+/g, ' ').split(' ').join('\n');
-
+        let name = decodeURIComponent(getname).replace(/\+|-|#|&|@|%20|,|\.|</g, ' ').replace(/\s+/g, ' ').split(' ').join(' '); // Replace + or - with space
 
         // Regular expression for valid characters (A-Z, a-z, accented characters, common symbols, and spaces)
         const validPattern = /^[a-zA-ZÀÁÂÃÄÅÆÇÈÉÊÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜŸÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ~!@^*()_=[\]{}\\|;:'">\/\n ]+$/;
@@ -389,11 +385,11 @@ var x = setInterval(function() {
         let wrappedName = ''; // Variable to hold the wrapped name for display
 
         // Validate the name against the allowed pattern
-        if (validPattern.test(space)) {
+        if (validPattern.test(name)) {
             // Name is valid: wrap each character in a span with a valid-name class
-            for (let char of space) {
+            for (let char of name) {
                 // Check if the character is a space and add <br /> if so
-                if (char === '\n') {
+                if (char === ' ') {
                     wrappedName += `<br />`;  // Add a <br /> tag for spaces
                 } else {
                     wrappedName += `<span>${char}</span>`;  // Wrap other characters in <span>
@@ -405,19 +401,7 @@ var x = setInterval(function() {
                 outputDiv.innerHTML = `<div class="test"><div class="name">${wrappedName}</div></div>`;
             }
         } else {
-            // Name is invalid: wrap each character in a span with an invalid-name class
-            for (let char of space) {
-                // Check if the character is a space and add <br /> if so
-                if (char === ' ') {
-                    wrappedName += `<br />`;  // Add a <br /> tag for spaces
-                } else {
-                    wrappedName += `<span>${char}</span>`;  // Wrap other characters in <span>
-                }
-            }
-        
-            // Display the invalid name inside a <div> with class "username"
-            if (outputDiv) {
-                outputDiv.innerHTML = `<div class="username">${wrappedName}</div>`;
+                outputDiv.innerHTML = `<div class="username">${name}</div>`;
             }
         }
         
@@ -426,7 +410,6 @@ var x = setInterval(function() {
         for (let element of simpleNameElements) {
             element.textContent = name; // Set the value of the parameter as the text content
         }
-    }
 
     // Wait for the DOM to be fully loaded before running the function
     document.addEventListener('DOMContentLoaded', getUrlParameter);
