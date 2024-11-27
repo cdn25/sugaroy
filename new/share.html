@@ -364,8 +364,15 @@ var x = setInterval(function() {
 }, 1000);
 </script>
 <script>
-          // Check if there is a value in sessionStorage
-        var recordName = sessionStorage.getItem('name');
+function capitalizeFirstLetter(str) {
+    return str
+        .split(' ') // Split the string into an array of words
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitalize the first letter of each word
+        .join(' '); // Join the words back into a single string
+}
+
+const inputString = sessionStorage.getItem('name');
+const recordName = capitalizeFirstLetter(inputString);
 
           // If no value is found, use a default value
         if (!recordName) {
